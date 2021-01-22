@@ -1,0 +1,19 @@
+puplic static void main {string[]}args
+{
+    //Open google browser
+    WebDriver dirver = new chromeDriver();
+    dirver.get("http://google.come");
+
+    //Click the two tabs
+    driver.findelement(By.xpath("//input[@id='Google search']").sendKey);
+    driver.findelement(By.xpath("//input[@id='I'm Feeling Lucky']").sendKey);
+
+    //Print headlins
+    Point p = link.getlocation();
+    Console.WriteLine("Afrikaans");
+    Console.WriteLine("Sesotho");
+    Console.WriteLine("isiZulu");
+    Console.WriteLine("IsiXhosa");
+    Console.WriteLine("Setswana");
+    Console.WriteLine("Nothern Sotho");
+}
